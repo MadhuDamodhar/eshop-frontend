@@ -236,8 +236,8 @@ function SignUp() {
         <div className="right-section3">
           <img src={signupimg}></img>
           <p>
-            Jumpstart your business by quickly <br></br>registering on E-Shop to
-            set up <br></br>your seller profile today. . . . !
+            Jumpstart your business by quickly registering on E-Shop to
+            set up your seller profile today. . . . !
           </p>
         </div>
       </div>

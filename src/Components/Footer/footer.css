@@ -34,6 +34,7 @@
 .footer-item p{
   font-size: .87rem;
   padding: 2px;
+  text-align: justify;
 }
 .copy-rights{
   display: flex;
@@ -47,4 +48,47 @@
   font-size: 1.1rem;
   font-weight: 500;
 }
-
+/*-------------------mediasqueries--------------------------------*/
+@media(max-width:520px){
+  .wrappper{
+    padding: 10px;
+    height: 180px;
+    gap: 10px;
+    width: 100%;
+  }
+  .footer-section{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: justify;
+    text-transform:capitalize ;
+    padding: 10px;
+  }
+  .footer-item{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    gap: 10px;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  background-color: transparent;
+}
+.footer-item h2{
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
+.footer-item p{
+  font-size: .43rem;
+  padding: 0px;
+  letter-spacing: -.5px;
+  text-align: justify;
+}
+.copy-rights p{
+  font-size: .6rem;
+  font-weight: 900;
+}
+}

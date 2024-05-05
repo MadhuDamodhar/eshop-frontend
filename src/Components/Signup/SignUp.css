@@ -180,6 +180,7 @@
   margin-left: 10px;
   gap: 20px;
   background-color: transparent;
+  display: none;
 }
 .right-section3 p{
   font-size: 28px;
@@ -196,4 +197,44 @@
   height: 400px;
   width: 550px;
   background-color: transparent;
+}
+
+/*----------------------------media queries-------------------------------*/
+@media(max-width:520px){
+  .SignUp{
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    
+  }
+  .form {
+    gap: 15px;
+    height: 550px;
+    max-width: 450px;
+    padding: 30px;
+    color: #fff;
+    margin-top: -100px;
+  }
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1.6px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    color: #080808;
+    
+  }
+  .title::before,
+.title::after {
+  margin-left: 20px;
+  
+}
+.submit {
+  margin-left: 80px;
+}
+
+  
 }

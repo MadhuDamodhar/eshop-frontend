@@ -194,3 +194,35 @@ background-color: transparent;
   color: #080808;
   
 }
+/*--------------------media queries-------------------------------*/
+@media(max-width:520px){
+
+  .right-section2{
+    display: none;
+    }
+    .Login{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    }
+    .Loginform {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      height: 45%;
+      width: 90%;
+      padding: 30px;
+      padding-top: 40px;margin-top: -120px;
+    }
+
+
+
+
+
+
+
+
+  
+}

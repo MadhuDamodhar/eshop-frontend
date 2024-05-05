@@ -8,42 +8,42 @@ function footer() {
     <div className='footer-item'>
     <div className='items'>
     <h2>About Us</h2>
-    <p>Discover who we are and what<br/> we stand for at E-Shop. Learn <br/>more about our mission to revolutionize<br/> online shopping.</p>
+    <p>Discover who we are and what we stand for at E-Shop. Learn more about our mission to revolutionize online shopping.</p>
     </div>
     <div className='items'>
     <h2>Contact Us</h2>
-    <p>Have questions or need support ? <br/>Contact our dedicated team anytime.<br/> We're here to help you succeed!</p>
+    <p>Have questions or need support ? Contact our dedicated team anytime. We're here to help you succeed!</p>
     </div>
     </div>
     <div className='footer-item'>
     <div className='items'>
     <h2>Seller Support</h2>
-    <p>Access resources, FAQs,<br/> and direct support to make<br/> the most of your
-      E-Shop<br/> experience as a seller</p>
+    <p>Access resources, FAQs, and direct support to make the most of your
+      E-Shop experience as a seller</p>
     </div>
     <div className='footer-item'>
     <h2>Privacy Policy</h2>
-    <p>Your privacy matters. Read  how <br/>we  protect and use your data.</p>
+    <p>Your privacy matters. Read  how we  protect and use your data.</p>
     </div>
     </div>
     <div className='footer-item'>
     <div className='items'>
     <h2>Terms of Service</h2>
-    <p>Understand the terms under which <br/>we offer our services. We prioritize<br/> transparency for all our users</p>
+    <p>Understand the terms under which we offer our services. We prioritize transparency for all our users</p>
     </div>
     <div className='items'>
     <h2>Careers</h2>
-    <p>Join our team and help shape<br/> the future of e-commerce. Explore<br/> career opportunities with E-Shop<br/> today!</p></div>
+    <p>Join our team and help shape the future of e-commerce. Explore career opportunities with E-Shop today!</p></div>
     </div>
 
     <div className='footer-item'>
     <div className='items'>
     <h2>Blog</h2>
-    <p>Gain insights, tips, and updates<br/> with our regularly updated blog.<br/> Stay ahead in the e-commerce world.</p>
+    <p>Gain insights, tips, and updates with our regularly updated blog. Stay ahead in the e-commerce world.</p>
     </div>
     <div className='items'>
     <h2>Community Forum</h2>
-    <p>Connect, learn, and share with<br/> other sellers in the E-Shop<br/> community. Grow together!</p>
+    <p>Connect, learn, and share with other sellers in the E-Shop community. Grow together!</p>
     </div>
     </div>
     </div>

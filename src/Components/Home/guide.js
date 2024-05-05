@@ -27,12 +27,13 @@ function guide() {
               countries.
             </p>
           </div>
-        </div>
-        <div className="second-section">
           <div className="card">
             <h2>5.1K+</h2>
             <p>5.1K+ sellers became crorepatis in 2022. You could be next.</p>
           </div>
+        </div>
+        <div className="second-section">
+          
           <div className="card">
             <h2>Unbeatable reach</h2>
             <p>
@@ -40,6 +41,7 @@ function guide() {
               & Fulfillment by E-Shop.
             </p>
           </div>
+
           <div className="card">
             <h2>Secure payments</h2>
             <p>
@@ -47,6 +49,20 @@ function guide() {
               including for Pay on Delivery order.
             </p>
           </div>
+          <div className="card">
+          <h2>Hassle-Free Setup</h2>
+          <p>
+          Smoothly launch with streamlined listing, delivery, and returns services.
+          </p>
+        </div>
+
+        <div className="card">
+        <h2>Unparalleled Distribution</h2>
+        <p>
+        Ensure nationwide delivery to every serviceable pincode in India.
+        </p>
+      </div>
+
         </div>
       </div>
       
@@ -66,11 +82,18 @@ function guide() {
     </p>
   </div>
   <div className="card">
-    <h2>3.Start Selling </h2>
+    <h2 >3.Start Selling </h2>
     <p>
     List your items and tap into a global marketplace to grow your business.
     </p>
   </div>
+
+  <div className="card">
+  <h2 >4.Optimize and Grow </h2>
+  <p>
+  Use E-Shop’s analytics tools to refine your listings and increase sales.
+  </p>
+</div>
   </div>
       </div>
     </div>

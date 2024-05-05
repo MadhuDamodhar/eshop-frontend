@@ -4,6 +4,7 @@
   justify-content: center;
   padding: 80px;
   padding-top: 30px;
+
 }
 .guide-section{
   display: flex;
@@ -35,16 +36,74 @@
     .card p{
       font-size: 1rem;
     }
-
-    .registration-guide{
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-    }
     .guide{
       display: flex;
       flex-direction: row;
       gap: 70px;
       padding: 30px;
       padding-left: 100px;
+    }
+
+    .registration-guide{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+   
+    /**------------media queries-------------*/
+    @media(max-width:520px){
+      .main-section{
+        display: flex;
+        padding: 0px;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        width: 100%;
+      }
+      .guide-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .first-section , .second-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 25px;
+        padding-left: 24px;
+      }
+      h1{
+        font-size: 1.2rem;
+        padding-left: 10px;
+        }
+        .card{
+          width:160px;
+          height: 140px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          }
+          .card h2{
+            font-size: .8rem;
+            font-weight: 900;
+            }
+            .card p{
+              font-size: .8rem;
+              letter-spacing: -1.1px;
+              line-height: 1.5;
+            }
+            .registration-guide{
+              gap: 2px;
+            }
+            .guide{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: 40px;
+              padding: 25px;
+              padding-left: 24px;
+            }
     }

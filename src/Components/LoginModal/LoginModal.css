@@ -61,3 +61,26 @@ border-radius: 10px;
   color: black;
   transition: all linear .01s;
 }
+
+@media(max-width:520px){
+  .loginmodal-wrapper{
+    height: 30%;
+    width: 80%;
+    }
+    .loginsuccessGif{
+      height: 40px;
+      width: 40px;
+    }
+    .gotoAdminPanel-btn{
+      height: 40px;
+      width: 160px;
+      font-size: 1rem;
+    
+    }
+    .loginmodal-content p{
+        font-size: .9rem;
+        text-align: justify;
+        text-transform: capitalize;
+        line-height: .60;
+    }
+}

@@ -59,5 +59,35 @@ border-radius: 10px;
 .login-btn:active{
   background-color: white;
   color: black;
+  border: 1px solid black;
   transition: all linear .01s;
+}
+
+@media(max-width:520px){
+  .modal-wrapper{
+    height: 25%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    }
+    .modal-content{
+      height: 100%;
+      width: 100%;
+      gap: 5px;
+    }
+    .modal-content p{
+      font-size: .8rem;
+      font-weight: 300;
+    }
+    .successGif{
+      height: 50px;
+      width: 50px;
+    }
+    .login-btn{
+      height: 40px;
+      width: 80px;
+      font-size: .8rem;
+    
+    }
+    
 }
