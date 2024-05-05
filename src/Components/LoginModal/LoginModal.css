@@ -1,0 +1,63 @@
+.loginmodal-conatiner{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.412);
+  border: 1px solid;
+  z-index: 1;
+}
+.loginmodal-wrapper{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+flex-direction: column;
+height: 40%;
+width: 40%;
+z-index: 1;
+border-radius: 10px;
+}
+.loginmodal-content{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+
+
+.logincloseBtn{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100px;
+}
+.loginsuccessGif{
+  height: 80px;
+  width: 80px;
+}
+
+
+.gotoAdminPanel-btn{
+  background-color: #000000;
+  color: white;
+  height: 45px;
+  width: 160px;
+  font-size: 1rem;
+  border-radius: 10px;
+
+}
+.gotoAdminPanel-btn:active{
+  background-color: white;
+  color: black;
+  transition: all linear .01s;
+}

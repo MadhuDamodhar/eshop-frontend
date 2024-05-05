@@ -1,0 +1,196 @@
+.Login{
+ 
+  background-color: #30384129;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+}
+.Loginform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 60%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  background-color:  #f4f3f3;
+  color: #fff;
+  padding-top: 60px;
+}
+
+
+.Logintitle {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #080808;
+}
+
+.Logintitle::before {
+  width: 18px;
+  height: 18px;
+}
+
+.Logintitle::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.Logintitle::before,
+.Logintitle::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: #080707;
+}
+.Loginmsg{
+  font-size: 14.5px;
+  color: red;
+  text-align: center;
+  
+}
+
+.message1, 
+.Login {
+  font-size: 14.5px;
+  color: rgba(11, 11, 11, 0.7)
+}
+
+.Loginlink {
+  text-align: center;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.Loginlink .Link:hover {
+  text-decoration: underline royalblue;
+}
+
+.Loginlink .Link {
+  color: #00bfff;
+  background-color: transparent;
+}
+
+
+.Loginform label {
+  position: relative;
+  
+}
+
+.Loginform label .Logininput {
+  background-color: #1f1e1e13;
+  color: #101010;
+  width: 100%;
+  padding: 20px 05px 05px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 5px;
+  margin-top: -4px;
+
+}
+
+.Loginform label .Logininput + span {
+  color: black;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+  background-color: transparent;
+}
+
+.Loginform label .Logininput:placeholder-shown + span {
+  top: 1.5px;
+  font-size: 1em;
+  background-color: transparent;
+  color: #000;
+}
+
+.Loginform label .Logininput:focus + span,
+.Loginform label .Logininput:valid + span {
+  color: #040404;
+  top: 0px;
+  font-size: 0.7em;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.Logininput {
+  font-size: medium;
+}
+
+.Loginsubmit {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color: #090909;
+  width: 50%;
+  margin-left: 80px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.Loginsubmit:active {
+  background-color: #f0f4f696;
+  border: 1px solid black;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+.right-section2{
+display: flex;
+flex-direction: column;
+padding: 20px;
+background-color: transparent;
+}
+.right-section2 img{
+  height: 350px;
+  width: 400px;
+  margin-top: -20px;
+  margin-left: 30px;
+  background-color: transparent;
+}
+.right-section2 p{
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #080808;
+  
+}

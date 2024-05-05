@@ -1,0 +1,10 @@
+.text{
+  text-align: center;
+  font-size:10rem;
+  height: 100vh;
+  color: black;
+  background-color: #30384129;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

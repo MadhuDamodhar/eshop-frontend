@@ -1,0 +1,50 @@
+.main-section{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  padding: 80px;
+  padding-top: 30px;
+}
+.guide-section{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.first-section , .second-section{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  padding: 30px;
+  padding-left: 100px;
+}
+.card{
+  width:350px;
+  height: 160px;
+  padding: 15px;
+  background-color: #30384129;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  }
+  .card h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: transparent;
+    }
+    .card p{
+      font-size: 1rem;
+    }
+
+    .registration-guide{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .guide{
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+      padding: 30px;
+      padding-left: 100px;
+    }

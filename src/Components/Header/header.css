@@ -1,0 +1,49 @@
+.blackheader{
+  background-color: hsl(0, 0%, 75%);;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+h2{
+ letter-spacing: 2px;
+ font-size: 2rem;
+ font-weight:300;
+ background-color: transparent;
+}
+.header-right{
+  display: flex;
+  gap: 10px;
+  background-color: transparent;
+}
+.start-selling{
+  height: 40px;
+  border-radius: 10px;
+  min-width: 140px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.start-selling:active{
+  background-color: white;
+  color: black;
+  transition: all linear .01s;
+}
+.login{
+  height: 40px;
+  border-radius: 10px;
+  min-width: 100px;
+  transition: all linear .1s;
+  cursor: pointer;
+}
+.login:hover{
+  background-color: black;
+  color: white;
+}
