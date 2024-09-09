@@ -11,6 +11,10 @@
   flex-direction: column;
  
 }
+.guide-section  h1{
+ font-size: 2rem;
+ 
+}
 .first-section , .second-section{
   display: flex;
   flex-direction: row;
@@ -18,9 +22,9 @@
   padding: 30px;
   padding-left: 100px;
 }
-.card{
+.card1{
   width:350px;
-  height: 160px;
+  height: 180px;
   padding: 15px;
   background-color: #30384129;
   border-radius: 5px;
@@ -28,12 +32,12 @@
   flex-direction: column;
   gap: 15px;
   }
-  .card h2{
+  .card1 h2{
     font-size: 1.4rem;
     font-weight: 700;
     background-color: transparent;
     }
-    .card p{
+    .card1 p{
       font-size: 1rem;
     }
     .guide{
@@ -43,7 +47,9 @@
       padding: 30px;
       padding-left: 100px;
     }
-
+    .registration-guide h1{
+      font-size: 2rem;
+    }
     .registration-guide{
       display: flex;
       flex-direction: column;
@@ -98,6 +104,13 @@
             .registration-guide{
               gap: 2px;
             }
+            .registration-guide h1{
+              font-size: 1.5rem;
+            }
+            .guide-section  h1{
+              font-size: 1.5rem;
+              
+             }
             .guide{
               display: flex;
               flex-direction: row;

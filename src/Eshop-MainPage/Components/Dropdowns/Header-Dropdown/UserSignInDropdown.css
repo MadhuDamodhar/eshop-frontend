@@ -1,14 +1,14 @@
-.loginmodal-conatiner{
+.UserSignInDropdown-conatiner{
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.412);
   border: 1px solid;
-  z-index: 1;
+  z-index: 100;
+  
 }
-.loginmodal-wrapper{
+.UserSignInDropdown-wrapper{
 position: absolute;
 top: 50%;
 left: 50%;
@@ -17,24 +17,25 @@ display: flex;
 flex-direction: column;
 height: 40%;
 width: 35%;
-z-index: 1;
+z-index: 100;
 border-radius: 10px;
+margin-top: 200px;
+
 }
-.loginmodal-content{
+.UserSignInDropdown-content{
   display: flex;
   flex-direction: column;
-  background-color: white;
-  background-color: transparent;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
   gap: 2px;
 }
-.loginmodal-content h1{
+.UserSignInDropdown-content h1{
   font-size: 2.5rem;
+  background-color: transparent;
 }
-.loginmodal-content p{
+.UserSignInDropdown-content p{
   font-size: 1rem;
 }
 
@@ -46,7 +47,7 @@ border-radius: 10px;
   right: 0;
   border-radius: 100px;
 }
-.loginsuccessGif{
+.UserSignInDropdownsuccessGif{
   height: 80px;
   width: 80px;
 }
@@ -66,7 +67,7 @@ border-radius: 10px;
   color: black;
   transition: all linear .01s;
 }
-
+/* 
 @media(max-width:520px){
   .loginmodal-wrapper{
     height: 30%;
@@ -98,4 +99,4 @@ border-radius: 10px;
       font-weight: 900;
     }
    
-}
+} */

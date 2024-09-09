@@ -1,0 +1,44 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  gap: 10px;
+margin-bottom: 5px;
+height: 100vh;
+
+}
+.wrapper h2{
+  font-weight: 700;
+  margin-top: -40px;
+}
+
+.ProductBannerItems1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ height: 40%;
+ /* align-items: center; */
+ justify-content: flex-start;
+ gap: 20px;
+ overflow-x: scroll;
+ padding: 15px;
+ scroll-behavior: smooth;
+ scrollbar-width: none;
+
+}
+.ProductBannerItems2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ height: 40%;
+ /* align-items: center; */
+ justify-content: flex-start;
+ gap: 20px;
+ overflow-x: scroll;
+ padding: 15px;
+ scroll-behavior: smooth;
+ scrollbar-width: none;
+margin-top: -20px;
+}

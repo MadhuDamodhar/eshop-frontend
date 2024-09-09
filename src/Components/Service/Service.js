@@ -9,7 +9,5 @@ class service {
   signIn(seller) {
     return axios.post(BASE_URL + "signin", seller);
   }
-
-
 }
 export default new service();

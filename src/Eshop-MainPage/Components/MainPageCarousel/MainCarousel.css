@@ -1,0 +1,35 @@
+.Main-Caraousel{
+
+height: 35vh;
+  width: 100%;
+ margin: 10px 10px 0px 0px ;
+  margin-top: 90px;
+  border: 10px solid black;
+}
+.carousel img{
+  height: 32.4vh;
+  width: 100%;
+  object-position: center;
+  object-fit: fill;
+}
+.carousel-indicators{
+ background-color: transparent;
+
+}
+
+.carousel-control-prev-icon{
+  /* background-color: rgb(0, 0, 0); */
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  color: black;
+  
+}
+
+.carousel-control-next-icon{
+  /* background-color: rgb(0, 0, 0); */
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  
+}

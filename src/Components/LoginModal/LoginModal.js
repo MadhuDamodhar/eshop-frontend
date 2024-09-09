@@ -10,7 +10,7 @@ function LoginModel({closeModal}) {
   <div className="loginmodal-wrapper">
     <img onClick={closeModal} className="logincloseBtn" src={closebtn}></img>
     <div className="loginmodal-content">
-      <h1>Login Successful</h1>
+      <h1>Login Successful !</h1>
       <p>Your Success Journey Begins Here!</p>
       <p>List now and grow</p>
       <img className="loginsuccessGif" src={successGif}></img>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SignUp.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Modal from "../Modal/Modal";
 import Service from "../Service/Service";
 import signupimg from "../Signup/signup2.png";
@@ -8,7 +8,6 @@ function SignUp() {
   const [showModal, setShowModel] = useState(false);
   const [confirmPassword, setConfirmPassword] = useState("");
   const [disable, setDisable] = useState();
-  const navigate = useNavigate();
   const [msg, setMsg] = useState("");
   const [seller, setSeller] = useState({
     firstName: "",
@@ -236,8 +235,8 @@ function SignUp() {
         <div className="right-section3">
           <img src={signupimg}></img>
           <p>
-            Jumpstart your business by quickly registering on E-Shop to
-            set up your seller profile today. . . . !
+            Jumpstart your business by quickly registering on E-Shop to set up
+            your seller profile today. . . . !
           </p>
         </div>
       </div>
